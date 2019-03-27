@@ -6,7 +6,7 @@
 
 }
 #window {
-    background: #e2e2e2;
+    background: rgba(214, 214, 214, 0.98);
     text-align: center;
     margin-top: 5%;
     margin-right: auto;
@@ -29,10 +29,14 @@
     font-size: 14px;
     border: none;
 
-
 }
 #buttonStart:hover{
     transform: scale(0.96);
+}
+
+#buttonStart:disabled{
+    background: gray;
+    color: white;
 }
 #inputUser {
     font-size: large;
@@ -49,4 +53,41 @@
 
 #link{
     width: 20%;
+}
+
+#recordsTable {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    border-collapse: collapse;
+    color: #686461;
+}
+#recordsTable caption {
+    padding: 10px;
+    color: white;
+    background: #4ac5ff;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+}
+th {
+    border-bottom: 3px solid #4ac5ff;
+    padding: 10px;
+    text-align: center;
+}
+td {
+    padding: 10px;
+}
+tr:nth-child(odd) {
+    background: rgba(255,255,255,.6);
+}
+tr:nth-child(even) {
+    background: #d6d6d6;
+}
+
+#nameBox{
+    margin: 10px;
+    font-size: 18px;
+    font-weight: bold;
 }

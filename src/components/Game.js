@@ -146,7 +146,7 @@ class Game extends Component{
         }
 
         if(mistakeText.length > this.state.mistakeText.length){
-            this.setState({lives: this.state.lives-1})
+            this.setState({lives: this.state.lives-1});
         }
 
         this.setState({

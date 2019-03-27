@@ -3,7 +3,7 @@
     height: 40px;
 }
 #gameWindow {
-    background: #e2e2e2;
+    background: rgba(214, 214, 214, 0.98);
     margin-top: 5%;
     margin-right: auto;
     margin-left: auto;
